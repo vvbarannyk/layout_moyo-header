@@ -38,7 +38,6 @@ body {
 }
 
 .nav {
-  display: inline-block;
   margin: 0;
 }
 
@@ -69,7 +68,7 @@ body {
   color: var(--selected-color);
 }
 
-.is-active {
+.nav__link.is-active {
   color: var(--selected-color);
 }
 
